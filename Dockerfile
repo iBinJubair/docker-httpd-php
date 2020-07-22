@@ -262,7 +262,7 @@ RUN docker-php-ext-enable sodium
 RUN set -eux; \
 	curl -s -L -o /usr/local/bin/install-php-extensions "https://raw.githubusercontent.com/mlocati/docker-php-extension-installer/master/install-php-extensions"; \
 	chmod +x /usr/local/bin/install-php-extensions; \
-    install-php-extensions \
+	install-php-extensions \
 		bcmath \
 		bz2 \
 		calendar \

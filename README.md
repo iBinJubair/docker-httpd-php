@@ -2,7 +2,7 @@
 
 Docker image based on Linux Alpine Image.
 
-Image Contains 
+Image contains:
 - Apache 2.4
 - PHP 7.3
 - Composer
@@ -10,7 +10,7 @@ Image Contains
 - Subversion
 - GhostScript
 
-Image Can run
+Image can run:
 - Laravel
 - WordPress
 - Moodle
